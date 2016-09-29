@@ -1,0 +1,38 @@
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    IMOS/OceanCurrent/GSLA
+schema:    gsla_dm00
+s3Regex:   ^IMOS/OceanCurrent/GSLA/DM00/.*/.*_GSLA_FV02_DM00_.*.nc.gz$
+dbRegex:   <none>
+total records 5809
+================
+total counts
+s3_count 5354
+db_count 5809
+db_count_ignore_deleted 5354
+s3_count - db_count_ignore_deleted 0
+================
+records with counts greater than one
+================
+s3 / db differences
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    IMOS/OceanCurrent/GSLA
+schema:    gsla_nrt00
+s3Regex:   ^IMOS/OceanCurrent/GSLA/NRT00/.*/.*_GSLA_FV02_NRT00_.*.nc.gz$
+dbRegex:   <none>
+total records 2135
+================
+total counts
+s3_count 1836
+db_count 2135
+db_count_ignore_deleted 1836
+s3_count - db_count_ignore_deleted 0
+================
+records with counts greater than one
+================
+s3 / db differences

@@ -1,0 +1,38 @@
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    CSIRO/Climatology/CARS
+schema:    generic_timestep
+s3Regex:   ^CSIRO/Climatology/CARS/.*monthly.nc$
+dbRegex:   ^CSIRO/Climatology/CARS/.*monthly.nc$
+total records 1
+================
+total counts
+s3_count 1
+db_count 1
+db_count_ignore_deleted 1
+s3_count - db_count_ignore_deleted 0
+================
+records with counts greater than one
+================
+s3 / db differences
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    CSIRO/Climatology/CARS
+schema:    generic_timestep
+s3Regex:   ^CSIRO/Climatology/CARS/.*weekly.nc$
+dbRegex:   ^CSIRO/Climatology/CARS/.*weekly.nc$
+total records 1
+================
+total counts
+s3_count 1
+db_count 1
+db_count_ignore_deleted 1
+s3_count - db_count_ignore_deleted 0
+================
+records with counts greater than one
+================
+s3 / db differences

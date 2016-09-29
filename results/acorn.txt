@@ -1,0 +1,78 @@
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    IMOS/ACORN/gridded_1h-avg-current-map_non-QC
+schema:    acorn_hourly_avg_nonqc
+s3Regex:   .*\.nc$
+total records 294533
+================
+total counts
+s3_count 290877
+db_count 294533
+db_count_ignore_deleted 290877
+s3_count - db_count_ignore_deleted 0
+================
+records with counts greater than one
+================
+s3 / db differences
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    IMOS/ACORN/gridded_1h-avg-current-map_QC
+schema:    acorn_hourly_avg_qc
+s3Regex:   .*\.nc$
+total records 115488
+================
+total counts
+s3_count 113807
+db_count 115488
+db_count_ignore_deleted 113807
+s3_count - db_count_ignore_deleted 0
+================
+records with counts greater than one
+================
+s3 / db differences
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    IMOS/ACORN/radial
+schema:    acorn_radial_nonqc
+s3Regex:   ^IMOS/ACORN/radial/.*/.*FV00_radial.nc$
+total records 2814106
+================
+total counts
+s3_count 2812874
+db_count 2814106
+db_count_ignore_deleted 2812880
+s3_count - db_count_ignore_deleted -6
+================
+records with counts greater than one
+================
+s3 / db differences
+ s3_count: 0, db_count: 1, db_deleted: false, url: IMOS/ACORN/radial/RRK/2016/09/29/IMOS_ACORN_RV_20160929T011000Z_RRK_FV00_radial.nc
+ s3_count: 0, db_count: 1, db_deleted: false, url: IMOS/ACORN/radial/LEI/2016/09/29/IMOS_ACORN_RV_20160929T010500Z_LEI_FV00_radial.nc
+ s3_count: 0, db_count: 1, db_deleted: false, url: IMOS/ACORN/radial/TAN/2016/09/29/IMOS_ACORN_RV_20160929T011000Z_TAN_FV00_radial.nc
+ s3_count: 0, db_count: 1, db_deleted: false, url: IMOS/ACORN/radial/NNB/2016/09/29/IMOS_ACORN_RV_20160929T010500Z_NNB_FV00_radial.nc
+ s3_count: 0, db_count: 1, db_deleted: false, url: IMOS/ACORN/radial/FRE/2016/09/29/IMOS_ACORN_RV_20160929T010500Z_FRE_FV00_radial.nc
+ s3_count: 0, db_count: 1, db_deleted: false, url: IMOS/ACORN/radial/GUI/2016/09/29/IMOS_ACORN_RV_20160929T011000Z_GUI_FV00_radial.nc
+host db connection ok
+
+****************
+bucket:    imos-data
+prefix:    IMOS/ACORN/radial_quality_controlled
+schema:    acorn_radial_qc
+s3Regex:   ^IMOS/ACORN/radial_quality_controlled/.*/.*FV01_radial.nc$
+total records 1691707
+================
+total counts
+s3_count 1691700
+db_count 1691707
+db_count_ignore_deleted 1691700
+s3_count - db_count_ignore_deleted 0
+================
+records with counts greater than one
+================
+s3 / db differences
