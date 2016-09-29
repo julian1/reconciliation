@@ -24,4 +24,3 @@ java -jar ./target/s3-example-1.0-SNAPSHOT-shaded.jar \
     -schema     generic_timestep \
     -dbRegex    '^CSIRO/Climatology/CARS/.*weekly.nc$'
 
-  
