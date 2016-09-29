@@ -460,11 +460,11 @@ public class S3Sample {
 
         Options options = new Options();
 
+        // db credentials
         options.addOption("u", "username", true, "Database user.");
         options.addOption("p", "password", true, "Database password.");
         options.addOption("d", "db",       true, "Database connection string.");
         options.addOption("D", "driver",   true, "Database driver class.");  // TODO make optional
-
 
         // schema,
         options.addOption("schema",  "schema",   true, "schema");
