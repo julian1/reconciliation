@@ -401,7 +401,7 @@ class Helpers {
             || connectionString == null
             || databaseDriver == null) {
             // TODO, shouldn't be refering to the more specific class here,
-            S3Sample.usage(options);
+            Reconciliation.usage(options);
         }
 
         try {
@@ -432,7 +432,7 @@ class Helpers {
 
 
 
-public class S3Sample {
+public class Reconciliation {
 
     // TODO this function should be in the pool,
 
@@ -443,7 +443,7 @@ public class S3Sample {
 
     public static void usage(Options options) {
         HelpFormatter formatter = new HelpFormatter();
-        formatter.printHelp("S3Sample", options);
+        formatter.printHelp("Reconciliation", options);
         System.exit(1);
     }
 
@@ -503,7 +503,7 @@ public class S3Sample {
             || bucket == null
             || prefix == null
           ) {
-            S3Sample.usage(options);
+            Reconciliation.usage(options);
         }
 
         // -r 1

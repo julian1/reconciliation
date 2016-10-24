@@ -81,7 +81,7 @@
               <shadedArtifactAttached>true</shadedArtifactAttached>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.example.S3Sample</mainClass>
+                  <mainClass>com.example.Reconciliation</mainClass>
                   <!-- mainClass>com.hmkcode.Math au.org.emii.PostgresEditor</mainClass -->
                 </transformer>
               </transformers>
